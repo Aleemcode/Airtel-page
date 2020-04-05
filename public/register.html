@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="stylesheet" href="/build/tailwind.css">
+  <link rel="stylesheet" href="/build/style.css">
+  <title>Welcome to Tailwind!</title>
+</head>
+
+<body class="antialiased bg-gray-100">
+  <div class="logo px-16 py-3">
+    <img src="https://selfcare.ng.airtel.com/img/logo.png" alt="">
+  </div>
+  <header class=" w-full text-white ">
+    <nav class="bg-airtel h-10 flex justify-between items-center mx-auto py-4 px-16">
+      <div>
+        <a class="mr-8" href="#">Enterprise Portal</a>
+        <a class="mr-8" href="#">Home</a>
+      </div>
+      <div class="">
+        <a class="mr-8" href="register.html">Register</a>
+        <a href="index.html">Login</a>
+      </div>
+    </nav>
+  </header>
+  <section class="main mb-64">
+    <div class="grid grid-cols-2 px-16 py-10">
+      <div class="w-3/4 flex justify-center items-center">
+        <img src="https://www.airtel.cg/assets/images/img4g-man.png" alt="">
+      </div>
+      <div class="flex justify-start items-center shadow-md border px-8 rounded py-8">
+        <form class="w-full" action="#" method="POST">
+          <div class="form-group">
+            <label for="number" class="block text-airtel-gray">Contract Number</label>
+            <input type="text" id="number" name="number" class="border w-64 px-8 py-3 rounded hover:bg-gray-100 mt-2 shadow">
+          </div>
+          <div class="w-full form-group mt-4 flex">
+              <div class="w-1/2 mr-4">
+                  <label for="phone" class="block text-airtel-gray">Phone Number</label>
+                  <input type="text" id="phone" name="phone" class="border w-64 px-8 py-3 rounded hover:bg-gray-100 mt-2 shadow">
+              </div>
+              <div class="w-1/2">
+                <label for="email" class="block text-airtel-gray">Email</label>
+                <input type="email" id="email" name="email" class="border w-64 px-8 py-3 rounded hover:bg-gray-100 mt-2 shadow">
+            </div>
+          </div>
+          <div class="w-full form-group mt-4 flex">
+            <div class="w-1/2 mr-4">
+                <label for="password" class="block text-airtel-gray">Password</label>
+                <input type="password" id="password" name="password" class="border w-64 px-8 py-3 rounded hover:bg-gray-100 mt-2 shadow">
+            </div>
+            <div class="w-1/2">
+              <label for="password" class="block text-airtel-gray">Confirm Password</label>
+              <input type="password" id="password" name="password" class="border w-64 px-8 py-3 rounded hover:bg-gray-100 mt-2 shadow">
+          </div>
+        </div>
+          <div class="form-group mt-4">
+            <button type="submit" class="uppercase bg-airtel text-white px-6 py-2 mt-4 rounded hover:bg-red-700">register</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <hr>
+  <footer class="w-full px-16 flex justify-between py-4">
+    <p class="text-airtel-gray">Copyright © Airtel Nigeria, 2020</p>
+    <div class="text-airtel">
+      <a class="capitalize border-r border-airtel-gray pr-4 mr-2" href="#">Airtel Online</a>
+      <a class="capitalize border-r border-airtel-gray pr-4 mr-2" href="#">Terms of Use</a>
+      <a class="capitalize " href="#">Privacy</a>
+    </div>
+  </footer>
+</body>
+
+</html>
